@@ -1,12 +1,10 @@
+import Home from "./Home/Home";
+
 function App() {
   return (
-    <>
-      <div>
-        <h1 className="text-center text-pink-400">
-          Hello world how is the weather ?
-        </h1>
-      </div>
-    </>
+    <div className="max-w-[1200px] mx-auto sm:mt-[10rem]">
+      <Home />
+    </div>
   );
 }
 
